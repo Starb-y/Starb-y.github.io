@@ -1,2 +1,2 @@
-why isnt it showing 
-up on Starb-y.github.io?
+all credits to
+gn-math.github.io
