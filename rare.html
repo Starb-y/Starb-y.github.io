@@ -1,70 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Rare</title>
-  <style>
-    body {
-      background: #000 !important;
-      color: #fff !important;
-    }
-    #secret-btn-container {
-      display: none;
-      justify-content: center;
-    }
-    #secret-btn {
-      font-size: 1.2em;
-      padding: 10px 24px;
-      cursor: pointer;
-      background-color: #da1a32;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-    }
-  </style>
+<style>
+body {
+  background-color: black;
+}
+
+h1 {
+  color: green;
+  text-align: right;
+}
+
+p {
+  font-family: arial;
+  font-size: 20px;
+  color: green;
+ }
+ 
+  p1 {
+  color: red;
+  font-size: 250px;
+  font-family: arial;
+ 
+}
+</style>
 </head>
 <body>
-wow. you got this from someone probabaly. i only gave this secret to a few people, wowe.
 
-<div style="height:200px;"></div>
-
-this probabaly isnt anything....
-
-<!-- Tall spacer to force scrolling -->
-<div style="height:20000px;"></div>
-
-<div id="secret-btn-container">
-  <a href="favicon.png">
-    <button id="secret-btn">: )</button>
-  </a>
-</div>
-
-<div style="height:100px;"></div>
-
-<script>
-function isMobile() {
-  // Basic check for mobile devices
-  return /Mobi|Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
-}
-
-const btnContainer = document.getElementById("secret-btn-container");
-
-if (isMobile()) {
-  btnContainer.style.display = "flex";
-} else {
-  let sequence = [];
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
-      sequence.push(e.key);
-      if (sequence.length > 2) sequence.shift();
-      if (sequence[0] === 'ArrowLeft' && sequence[1] === 'ArrowRight') {
-        btnContainer.style.display = "flex";
-      }
-    } else {
-      sequence = [];
-    }
-  });
-}
-</script>
+<h1>Imhacking</h1>
+<p>I am a hacker. yes..</p>
+<p1> if you typed this.... yoy goyt hakcked!!! </p1>
 </body>
 </html>
+
+
+
